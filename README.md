@@ -6,7 +6,7 @@ Addition of two numbers
 using namespace std;
 
 int main() {
-    int a, b, sum;
+    int a, b, sub;
 
     
     cout << "Enter first number: ";
@@ -16,11 +16,11 @@ int main() {
     cout << "Enter second number: ";
     cin >> b;
 
-    // sum of the two numbers
+    // substraction of the two numbers
     sum = a + b;
 
     // result
-    cout << "The sum of the two numbers is " << sum << endl;
+    cout << "The sub of the two numbers is " << sub << endl;
 
     return 0;
 }
